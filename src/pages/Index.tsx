@@ -108,7 +108,6 @@ const Index = () => {
         <div className="bg-white rounded-xl shadow-xl overflow-hidden">
           <div className="p-6 bg-gradient-to-r from-blue-500 to-orange-500">
             <h2 className="text-2xl font-bold text-white">Pet Inventory</h2>
-            <p className="text-blue-100 mt-1">Total pets: {pets.length}</p>
           </div>
           
           <div className="p-6">
