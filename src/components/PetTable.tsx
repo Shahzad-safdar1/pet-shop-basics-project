@@ -31,7 +31,7 @@ const PetTable: React.FC<PetTableProps> = ({ pets, onEdit, onDelete }) => {
             <th className="text-left p-4 font-semibold text-gray-700">Age</th>
             <th className="text-left p-4 font-semibold text-gray-700">Gender</th>
             <th className="text-left p-4 font-semibold text-gray-700">Weight (kg)</th>
-            <th className="text-left p-4 font-semibold text-gray-700">Price ($)</th>
+            <th className="text-left p-4 font-semibold text-gray-700">Price</th>
             <th className="text-left p-4 font-semibold text-gray-700">Actions</th>
           </tr>
         </thead>
@@ -58,7 +58,7 @@ const PetTable: React.FC<PetTableProps> = ({ pets, onEdit, onDelete }) => {
               <td className="p-4 text-gray-600">{pet.age} years</td>
               <td className="p-4 text-gray-600">{pet.gender}</td>
               <td className="p-4 text-gray-600">{pet.weight}</td>
-              <td className="p-4 font-semibold text-green-600">${pet.price}</td>
+              <td className="p-4 font-semibold text-green-600">{pet.price}</td>
               <td className="p-4">
                 <div className="flex space-x-2">
                   <button
